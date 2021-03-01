@@ -40,7 +40,9 @@ body{
     z-index: 10;
     position: absolute;
     top: 490px;
-    animation: mario 5s linear infinite;
+    animation: mario 5s linear infinite alternate,
+               rotate 10s linear infinite;
+    
 }
 
 @keyframes mario{
@@ -52,8 +54,22 @@ body{
     100%{
         top: 490px;
         left: 1420px;
-    
+    }
 }
+
+@keyframes rotate{
+    0%{
+        transform: rotateY(0);
+    }
+    49%{
+        transform: rotateY(0);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    99%{
+        transform: rotateY(180deg);
+    }
 }
 
 .coin{

@@ -68,11 +68,6 @@ img{
     width: 100% ;
 }
 
-.col-24{
-    width: calc(100% / 24);
-}
-
-
 /* Offset */
 
 .offset-1{

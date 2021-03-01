@@ -55,3 +55,10 @@ body{
     
 }
 }
+
+.coin{
+    max-width: 50px;
+    position: absolute;
+    left: 900px;
+    top: 260px;
+}

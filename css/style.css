@@ -1,3 +1,56 @@
 body{
-    background-image:../img/unnamed.jpg;
+    background-image: url(../img/unnamed.jpg);
+    background-color:#02b5e1 ;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-x: center;
+}
+
+
+
+.land{
+    background-image: url(../img/land.png);
+    background-size: 50px;
+    height: 70px;
+    transform: translate(50px,150px);
+}
+.land2{
+    background-image: url(../img/land.png);
+    background-size: 50px;
+    height: 70px;
+    transform: translate(500px,250px);
+}
+.icon{
+    background-image: url(../img/tenor.png);
+    background-size: cover;
+    height: 70px;
+    width:70px;
+}
+
+.land-bottom{
+    background-image: url(../img/land-bottom.png);
+    width: 100%;
+    height: 150px;
+    background-size: 50px;
+    transform: translatey(450px);
+}
+
+.mario{
+    width: 100px;
+    z-index: 10;
+    position: absolute;
+    top: 490px;
+    animation: mario 5s linear infinite;
+}
+
+@keyframes mario{
+    0%{
+        top: 490px;
+        left: 0px;
+    }
+    
+    100%{
+        top: 490px;
+        left: 1420px;
+    
 }

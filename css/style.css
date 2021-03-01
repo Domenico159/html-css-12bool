@@ -1,29 +1,4 @@
-.black{
-    height: 50px;
-    background-color: #000;
-}
-.red{
-    height: 50px;
-    background-color: red;
-}
-.green{
-    height: 50px;
-    background-color: green;
-}
-.yellow{
-    height: 50px;
-    background-color: yellow;
-}
-.main-content{
-    padding-top: 150px;
-}
-
 body{
-    background:linear-gradient(45deg , rgb(113, 214, 73),rgb(69, 189, 197));
+    background-image:../img/unnamed.jpg;
     height: 100vh;
-}
-
-[class^=col-]{
-    float: left;
-    border: 3px dashed blue;
 }
